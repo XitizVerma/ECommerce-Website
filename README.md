@@ -1,9 +1,9 @@
-ECommerce Website
+#ECommerce Website
 
-This is a college project by Xitiz Verma which gives us an overview 
-of a fully functional and deployed eCommerce website something like Amazon!
+This is a college project by Xitiz Verma which gives us an overview of a fully functional and deployed eCommerce website something like Amazon!
 
-Tech Stack Used
+##Tech Stack Used
+
 - HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
 - React: Components, Props, Events, Hooks, Router, Axios
 - Redux: Store, Reducers, Actions
@@ -14,45 +14,31 @@ Tech Stack Used
 - Watch React & Node Tutorial
 
 ## Run Locally
+# MERN Stack - Ecommerce
+> Ecommerce website built with the MERN stack with React Context API for state management, pure CSS for style
 
-### 1. Clone repo
+## Install dependencies for server 
+### `npm install`
 
-```
-$ git clone https://github.com/XitizVerma/ECommerce-Website
-$ cd node-react-ecommerce
-```
+## Install dependencies for client
+### cd client ---> `npm install`
 
-### 2. Install MongoDB
+## Connect to your mongodb and add info in .env
 
-### 3. Run Backend
+## Add your paypal client id in client/src/components/mainpages/cart/PaypalButton.js
 
-```
-$ npm install
-$ npm start
-```
+## Run the client & server with concurrently
+### `npm run dev`
 
-### 4. Run Frontend
+## Run the Express server only
+### `npm run server`
 
-```
-# open new terminal
-$ cd frontend
-$ npm install
-$ npm start
+## Run the React client only
+### `npm run client`
 
-### 5. Create Admin User
+### Server runs on http://localhost:5000 and client on http://localhost:3000
 
-- Run this on chrome: http://localhost:5000/api/users/createadmin
-- It returns admin email and password
-
-### 6. Login
-
-- Run http://localhost:3000/signin
-- Enter admin email and password and click signin
-
-### 7. Create Products
-
-- Run http://localhost:3000/products
-- Click create product and enter product info
+Thank You
 
 
 
